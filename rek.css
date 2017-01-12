@@ -3,7 +3,28 @@ body {
 	background-repeat: -x -y;
 }
 
+button {
+	margin:10px;
+	border-radius: 25px;
+	border-color: solid red 2px;
+}
+
 nav {
-	padding: 100px;
-	margin: 100px;
+	width: 225px;
+    border: 25px solid red;
+    padding: 25px;
+    margin: 25px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+h1 {
+	margin: 0px;
+	padding-left: 35px;
+	color: white;
+}
+
+main {
+	margin: 550px;
+	margin-top: 0px;
 }
