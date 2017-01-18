@@ -1,6 +1,5 @@
 body {
-	background-color: lightgray;
-	background-repeat: -x -y;
+	background-image: url(background.jpg);
 }
 
 button {
@@ -11,11 +10,11 @@ button {
 
 nav {
 	width: 225px;
-    border: 25px solid red;
+    border: 15px solid black;
     padding: 25px;
     margin: 25px;
     border-radius: 25px;
-    background-color: black;
+    background-color: grey;
 }
 
 h1 {
@@ -23,8 +22,30 @@ h1 {
 	padding-left: 35px;
 	color: white;
 }
+@font-face {
+    font-family: JustKidding;
+    src: url(JustKidding.ttf);
+}
 
 main {
-	margin: 550px;
-	margin-top: 0px;
+	margin: 300px;
+	margin-top: 500px;
+}
+input#antwoord {
+	width: 140px;
+	height: 20px;
+}
+
+input#som {
+	width: 450px;
+	height: 60px;
+	position: absolute;
+	top:315px;
+	right:230px;
+	transform: rotate(+11.5deg);
+	background: rgba(50, 50, 50, 0);
+	font-family: "JustKidding", cursive, sans-serif;
+	border: 0px solid transparent;
+	font-size: 40px;
+	color: darkblue;
 }
